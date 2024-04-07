@@ -2,8 +2,15 @@ const productModel = require("../modal/productModel");
 
 // route("/products/")
 exports.getProducts = async (req, res, next) => {
+    // search product
+    const query = req.query.keyword ? {
+        name: {
+            $regex: req.query.keyword,
+            $options: "i"
+        }
+    } : {}
     // to extract data
-    const products = await productModel.find({});
+    const products = await productModel.find(query);
     res.json({
         success: true,
         products,
