@@ -3,7 +3,7 @@ const productModel = require("../modal/productModel");
 // route("/products/")
 exports.getProducts = async (req, res, next) => {
     // to extract data
-    const products = await productModal.find({});
+    const products = await productModel.find({});
     res.json({
         success: true,
         products,

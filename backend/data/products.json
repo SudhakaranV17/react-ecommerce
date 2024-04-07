@@ -6,10 +6,10 @@
     "rating": 4.5,
     "images": [
       {
-        "image": "/images/products/product-1.jpg"
+        "image": "/images/products/1.jpg"
       },
       {
-        "image": "/images/products/product-1-1.jpg"
+        "image": "/images/products/2.jpg"
       }
     ],
     "category": "Mobile",
@@ -23,10 +23,10 @@
     "rating": 4.5,
     "images": [
       {
-        "image": "/images/products/product-2.jpg"
+        "image": "/images/products/3.jpg"
       },
       {
-        "image": "/images/products/product-2-1.jpg"
+        "image": "/images/products/4.jpg"
       }
     ],
     "category": "Mobile",
@@ -40,10 +40,10 @@
     "rating": 4.5,
     "images": [
       {
-        "image": "/images/products/product-3.jpg"
+        "image": "/images/products/5.jpg"
       },
       {
-        "image": "/images/products/product-3-1.jpg"
+        "image": "/images/products/6.jpg"
       }
     ],
     "category": "Mobile",

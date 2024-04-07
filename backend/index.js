@@ -4,6 +4,9 @@ const dotenv = require("dotenv");
 const path = require("path");
 dotenv.config({ path: path.join(__dirname, 'config', "config.env") })
 
+
+// CORS 
+const cors = require("cors")
 // DATABASE
 const db = require("./config/connectDB")
 // ROUTES
@@ -15,6 +18,7 @@ db();
 
 // MIDDLEWARE to tell the EXPRESS to "EXPECT the DATA as JSON"
 app.use(express.json())
+app.use(cors())
 
 // API ROUTES SETUP
 app.use("/api/v1/", products);
