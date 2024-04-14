@@ -19,7 +19,8 @@ const productSchema = new mongoose.Schema({
     category: String,
     seller: String,
     numOfReviews: String,
-    created: Date
+    created: Date,
+    stock: Number,
 })
 
 // MODAL must a single word always in mongoose like 'product' , 'order'
